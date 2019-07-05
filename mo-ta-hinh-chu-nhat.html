@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Rectangle = function (chieuDai, chieuRong, chuVi, dienTich) {
+        this.chieuDai = chieuDai;
+        this.chieuRong = chieuRong;
+        this.chuVi = chuVi;
+        this.dienTich = dienTich;
+        
+        this.getChieuDai = function () {
+            return chieuDai;
+        };
+        this.getChieuRong = function () {
+            return chieuRong;
+        };
+        this.getChuVi = function () {
+            return (chieuDai + chieuRong) * 2;
+        };
+        this.getDienTich = function () {
+            return chieuRong * chieuDai;
+        };
+    }
+
+</script>
+</body>
+</html>
